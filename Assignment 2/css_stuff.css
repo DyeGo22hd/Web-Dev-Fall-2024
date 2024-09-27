@@ -1,0 +1,61 @@
+/*Combining CSS SELECTORS*/
+h1, h3 {
+    color:rgb(16, 68, 29);
+}
+
+/* child selector */
+.box > .bio{
+    color: purple;
+}
+
+
+/* descendant selector */
+.box li{ 
+    color: rgb(250, 0, 0);
+}
+
+/* chaining selector */
+li.focus{
+    color: rgb(52, 165, 24);
+}
+
+
+/* combining combiners */
+ul > li.focus{
+    font-size: 1.5rem;
+}
+
+li.desc{
+    color: orange;
+}
+
+/*CSS DISPLAY */
+.redborder{
+    height: 50px;
+    border: 2px solid brown;
+    padding: 10px;
+}
+
+.one{
+    height: 320;
+    width: 150px;
+    border:  1px solid black;
+    padding: 3px;
+    
+}
+
+#back1{
+    display: block;
+    background-color: orange;
+}
+
+/*CSS POSITIONING*/
+.bg{
+    background-color: navy;
+    position: relative;
+    height: auto;
+    width: auto;
+
+}
+
+/* */
