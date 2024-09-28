@@ -6,24 +6,68 @@
     <title>About me</title>
     <link rel="stylesheet" href = "../Assignment 2/css_stuff.css" />
 
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            grid-template-rows: 1fr, 1fr;
+            gap: 10px;
+        }
+
+        .container>*{
+            background-color: red;
+        }
+    </style>
+
 </head>
 <body>
+   
+    
     <h1>Czd Diego Divinagracia</h1>
+    
     <h2>About me:</h2>
-    <p>
-        I am a Computer Science Student with experience in the medical field as a medical scribe and former nursing student.
-        <br/> Due to my interest in Computers and data I changed my major and would like to focus more on data science.
-        <br/> I am looking for any type of job that relies on data analysis or organization but I am most interest in the medical 
-        <br/> aspect of it. I would like to work in a hospital or any healthcare environment.
-    </p>
-
-    <p>
-        I am very open minded and would like to try many new things, that is why I enjoy traveling  and experiencing new cultures.
-        <br/> Throughout my travels, I learned many cultures allowing me to interact with many people in a new light.
+    <div class="container">
+        <div class="two">
+            <p>
+                I am a Computer Science Student with experience in the medical field as a medical scribe and former nursing student.
+                Due to my interest in Computers and data I changed my major and would like to focus more on data science.
+                I am looking for any type of job that relies on data analysis or organization but I am most interest in the medical 
+                aspect of it. I would like to work in a hospital or any healthcare environment.
+            </p>
+            
+        </div>
         
-    </p>
+        <div class="one">
+            <p>
+                I am very open minded and would like to try many new things, that is why I enjoy traveling  and experiencing new cultures.
+                Throughout my travels, I learned many cultures allowing me to interact with many people in a new light.
+        
+            </p>
+        </div>
 
-     <hr/>
+        <div class="two">
+            <p>
+                Soy Estudiante de Informática con experiencia en el campo médico como escribano médico y ex estudiante de enfermería.
+                Debido a mi interés en las computadoras y los datos, cambié de especialidad y me gustaría centrarme más en la ciencia de datos.
+                Estoy buscando cualquier tipo de trabajo que dependa del análisis u organización de datos, pero lo que más me interesa es el sector médico. 
+                aspecto del mismo. Me gustaría trabajar en un hospital o en cualquier entorno sanitario.
+            </p>
+            
+        </div>
+        
+        <div class="one">
+            <p>
+                Soy de mente muy abierta y me gustaría probar muchas cosas nuevas, por eso disfruto viajar y experimentar nuevas culturas.
+                A lo largo de mis viajes, aprendí muchas culturas, lo que me permitió interactuar con muchas personas desde una nueva perspectiva.
+        
+            </p>
+        </div>
+
+        
+    </div> 
+
+
+    <hr/>
 
     <a href="index.html">Back</a>
     
