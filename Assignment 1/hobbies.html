@@ -6,36 +6,94 @@
     <title>Hobbies</title>
     <link rel="stylesheet" href = "../Assignment 2/css_stuff.css" />
 
+    <style>
+        body{
+            font-family: "Sono", sans-serif;
+        }
+
+        .categories{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            height: 20vh;
+            gap: 0rem;
+        }
+
+        .division{
+            flex: 1;
+            max-width: 300px;
+            padding: 2px;
+            background-color: bisque;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        .type{
+            font-size: 30px;
+            font-weight: bold;
+            color: blue;
+            margin-bottom: 10px;
+        }
+
+        .examples{
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            color:green;
+        }
+
+        @media(max-width: 600px){
+            .categories{
+                flex-direction: column;
+                height: 100%;
+            }
+
+        }
+
+    </style>
+
 </head>
 <body>
-    <h1>My Hobbies are...</h1>
-    <h2>Sports</h2>
-    <ul>
-        <li>Basketball</li>
-        <li>Lacrosse</li>
-        <li>Track and Field</li>
-        <li>Swimming</li>
-    </ul>
-
-    <h2>Activities</h1>
-        <ul>
-            <li>Scuba Diving</li>
-            <li>Hiking</li>
-            <li>Cosplaying</li>
-            <li>Traveling</li>
-            <li>Photography/Filmography</li>
+    <h1> My Hobbies are...</h1>
+    <div class="categories">
+        <div class="division">
+            <h2 class="type">Sports</h2>
+            <ul class="examples">
+                <li>Basketball</li>
+                <li>Lacrosse</li>
+                <li>Track and Field</li>
+                <li>Swimming</li>
         </ul>
+        </div>
+    </div>
 
-    <h2>Others</h2>
-    <ul>
-        <li>Reading</li>
-        <li>Weightlifting</li>
-        <li>PC Building</li>
-        <li>Gaming</li>
-    </ul>
+    <div class="categories">
+        <div class="division">
+            <h2 class="type">Activities</h1>
+                <ul class="examples">
+                    <li>Scuba Diving</li>
+                    <li>Hiking</li>
+                    <li>Cosplaying</li>
+                    <li>Traveling</li>
+                    <li>Photography/Filmography</li>
+                </ul>
+        </div>
+    </div>
 
+    <div class="categories">
+        <div class="division">
+            <h2 class="type">Others</h2>
+            <ul class="examples">
+                <li>Reading</li>
+                <li>Weightlifting</li>
+                <li>PC Building</li>
+                <li>Gaming</li>
+            </ul>
+        </div>
+    </div>
     <hr/>
     <a href="index.html">Back</a>
-
+    
 </body>
 </html>
